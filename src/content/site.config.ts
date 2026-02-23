@@ -42,13 +42,9 @@ export const siteConfig = {
     { label: "BibTeX", href: "#BibTeX" },
   ],
 
-  abstract: `Traffic safety analysis is critical for reducing road fatalities and injuries worldwide. However, existing datasets and benchmarks often fall short in capturing the full complexity of real-world traffic scenarios. They tend to focus on limited geographic regions, specific weather conditions, or narrow sets of safety-critical events, making it difficult to develop models that generalize across diverse environments.
+  abstract: `Traffic safety analysis is critical for reducing road fatalities and injuries worldwide. However, existing datasets and benchmarks often fall short in capturing the full complexity of real-world traffic scenarios. They tend to focus on limited geographic regions, specific weather conditions, or narrow sets of safety-critical events, making it difficult to develop models that generalize across diverse environments. To address these limitations, we introduce <strong>RoadSafe365</strong>, a large-scale benchmark designed for comprehensive traffic safety understanding. Our dataset covers a wide range of real-world driving scenarios across different seasons, weather conditions, times of day, and geographic locations. Each scenario is richly annotated with detailed safety-relevant attributes, enabling fine-grained analysis of traffic safety factors.
 
-To address these limitations, we introduce <strong>RoadSafe365</strong>, a large-scale benchmark designed for comprehensive traffic safety understanding. Our dataset covers a wide range of real-world driving scenarios across different seasons, weather conditions, times of day, and geographic locations. Each scenario is richly annotated with detailed safety-relevant attributes, enabling fine-grained analysis of traffic safety factors.
-
-RoadSafe365 supports multiple tasks including hazard detection, risk assessment, and safety-critical event prediction. We provide extensive baseline evaluations using state-of-the-art models, revealing significant room for improvement in current approaches. Our benchmark establishes a new standard for evaluating traffic safety understanding systems.
-
-The dataset and benchmark are released to facilitate research in traffic safety analysis and autonomous driving safety.`,
+RoadSafe365 supports multiple tasks including hazard detection, risk assessment, and safety-critical event prediction. We provide extensive baseline evaluations using state-of-the-art models, revealing significant room for improvement in current approaches. Our benchmark establishes a new standard for evaluating traffic safety understanding systems.  The dataset and benchmark are released to facilitate research in traffic safety analysis and autonomous driving safety.`,
 
   highlights: [
     {
