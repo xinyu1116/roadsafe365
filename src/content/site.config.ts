@@ -74,15 +74,15 @@ RoadSafe365 supports multiple tasks including hazard detection, risk assessment,
   ],
 
   datasetStats: {
-    videos: "10,000+",
-    qa_pairs: "500,000+",
+    videos: "36,000+",
+    qa_pairs: "210,000+",
     attributes: "150+",
     scenarios: "50+",
   },
 
   statsCards: [
-    { label: "Videos", value: "10,000+", icon: "🎬" },
-    { label: "QA Pairs", value: "500,000+", icon: "💬" },
+    { label: "Videos", value: "36,000+", icon: "🎬" },
+    { label: "QA Pairs", value: "210,000+", icon: "💬" },
     { label: "Attributes", value: "150+", icon: "🏷️" },
     { label: "Scenarios", value: "50+", icon: "🗂️" },
   ],
