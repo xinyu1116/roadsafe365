@@ -9,7 +9,7 @@ export default function Overview() {
         </h2>
         <div className="max-w-[80%] mx-auto">
           <img
-            src={assetPath("/pipeline.png")}
+            src={assetPath("/pipeline_roadsafe.pdf")}
             alt="RoadSafe365 pipeline overview"
             className="w-full rounded-card shadow-card"
           />
