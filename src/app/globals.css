@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  color: #4a4a4a;
+}
+
+/* Bulma-like section spacing */
+.section {
+  @apply py-12 px-6;
+}
+
+/* Publication-specific styles matching original */
+.publication-title {
+  font-family: "Google Sans", "Noto Sans", sans-serif;
+}
+
+.publication-authors {
+  font-family: "Google Sans", "Noto Sans", sans-serif;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+/* Button style matching Bulma is-rounded is-dark */
+.btn-paper {
+  @apply inline-flex items-center gap-2 px-5 py-2 rounded-button text-sm font-medium
+    transition-all duration-200 ease-in-out;
+  background-color: #363636;
+  color: #fff;
+  border: 1px solid transparent;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    0 0 0 1px rgba(10, 10, 10, 0.02);
+}
+
+.btn-paper:hover {
+  background-color: #292929;
+  box-shadow: 0 0.5em 2em -0.125em rgba(10, 10, 10, 0.2),
+    0 0 0 1px rgba(10, 10, 10, 0.02);
+  transform: translateY(-1px);
+}
+
+/* Code block for BibTeX */
+.bibtex-code {
+  @apply bg-surface-muted rounded-card p-6 text-sm leading-relaxed overflow-x-auto;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  color: #363636;
+}
+
+/* Toast animation */
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes toast-out {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+.toast-enter {
+  animation: toast-in 0.3s ease-out forwards;
+}
+
+.toast-exit {
+  animation: toast-out 0.3s ease-in forwards;
+}
+
+/* Stat card */
+.stat-card {
+  @apply bg-white rounded-card p-6 text-center shadow-card transition-all duration-200;
+}
+.stat-card:hover {
+  @apply shadow-card-hover;
+  transform: translateY(-2px);
+}
+
+/* Task card */
+.task-card {
+  @apply bg-white rounded-card p-6 shadow-card transition-all duration-200 border border-gray-100;
+}
+.task-card:hover {
+  @apply shadow-card-hover;
+  transform: translateY(-2px);
+}
+
+/* Download card */
+.download-card {
+  @apply bg-white rounded-card p-5 shadow-card transition-all duration-200 border border-gray-100
+    flex items-center justify-between;
+}
+.download-card:hover {
+  @apply shadow-card-hover;
+  transform: translateY(-1px);
+}
+
+/* Highlight card */
+.highlight-card {
+  @apply bg-white rounded-card p-6 shadow-card transition-all duration-200;
+}
+.highlight-card:hover {
+  @apply shadow-card-hover;
+  transform: translateY(-2px);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
