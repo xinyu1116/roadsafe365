@@ -138,3 +138,4 @@ const nextConfig = {
 1. Push to GitHub
 2. Import the repo on [vercel.com](https://vercel.com)
 3. Vercel auto-detects Next.js — deploy with defaults
+
